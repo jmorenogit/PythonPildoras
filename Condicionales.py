@@ -19,3 +19,17 @@ else:
     print("Sobresaliente")
 
 # Switch no existe en python. Alternativas: Diccionario, concatenar comparaciones, and y or, in
+
+#Concatenar if
+edad = int(input("Introduce edad: "))
+if 0 < edad < 100:
+    print("Edad válida")
+else:
+    print("Edad incorrecta. Introduzca un valor entre 0 y 100")
+
+# in
+usuario = input("Introduce usuario: ")
+if usuario in ("Juan", "Luis", "Pepe"):
+    print("Usuario existente")
+else:
+    print("El usuario no existe")
