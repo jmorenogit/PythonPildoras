@@ -16,3 +16,10 @@ texto = "HoLa QUE taL"
 print(texto)
 minus = texto.lower() #muy utilizado antes de comparar textos
 print("En minúsculas: " + minus)
+
+#modificar final de línea con print
+print("texto", end="") #sin salto de línea. Podemos introducir espacio u otro caracter
+print("seguido")
+
+#print función tipo f
+print (f"saludo: {minus}")
