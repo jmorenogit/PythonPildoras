@@ -14,9 +14,9 @@ print(mensaje)
 #Funciones: predefinidas(incluídas con el lenguaje), propias(creadas posteriormente)
 def miFuncion(num1, num2):
   if num1>num2:
-    return print("El numero 1 es mayor")
+    return print("El primero es mayor")
   else:
-    return print("El numero 2 es mayor")
+    return print("El segundo es mayor")
 
 num1=input("Introduzca numero 1: ")
 num2=input("Introduzca numero 2: ")
@@ -48,3 +48,7 @@ print("seguido")
 
 #print función tipo f
 print (f"saludo: {minus}")
+
+#Redondear resultado - Truncar int
+#Usando // para dividir devuelve el resultado entero redondeado
+print("Resultado redondeado 13 : 5 = ", 13//5)
